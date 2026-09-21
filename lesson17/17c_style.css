@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  padding-top: 70px;
+  padding-left: 80px;
+}
+
+/* Header */
+
+.header {
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.left-section {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hamburger {
+  font-size: 20px;
+}
+
+.search-bar {
+  width: 400px;
+  height: 35px;
+}
+
+
+/* Videos */
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 20px;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.video-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.video-author,
+.video-stats {
+  font-size: 12px;
+  color: gray;
+}
